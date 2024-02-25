@@ -80,7 +80,7 @@ public class LinkedListDeque<T> {
         if (size == 1) {
             first = null;
             end = null;
-            size = size - 1;
+            size = 0;
             return item;
         }
         first = first.next;
@@ -98,7 +98,7 @@ public class LinkedListDeque<T> {
         if (size == 1) {
             first = null;
             end = null;
-            size = size - 1;
+            size = 0;
             return item;
         }
         end = end.pre;
